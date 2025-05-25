@@ -19,9 +19,15 @@ app.get("/", (req, res) => {
   res.send(intro)
 });
 
-// Product & Order routes
+// Product routes
 const productRoutes = require("./routers/products.js");
 app.use("/products", productRoutes);
+
+
+// Product routes
+const orderRoutes = require("./routers/orders.js");
+app.use("/orders", orderRoutes);
+
 
 
 //Dummy auth pages as authtentication it is not required now
