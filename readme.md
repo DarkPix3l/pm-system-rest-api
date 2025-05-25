@@ -4,13 +4,3 @@
 ## Objective
 **REST API** using **Express.js** for a product management system. 
 The API will include **CRUD** operations for products, and order functionality.
-
-
-## Documentation
-
-### API Endpoints
-
-### Request Formats
-
-### Response Formats
-
